@@ -97,7 +97,7 @@ export default function Hero() {
             <img
               src={m}
               alt="Profile"
-              className="relative z-10 w-[120px] md:w-[350px] h-[290px] md:h-[350px] hover:scale-105 duration-300 object-cover rounded-lg transform translate-x-[297px] md:translate-x-[680px] -translate-y-[300px] md:-translate-y-[348px]"
+              className="relative z-10 w-[120px] md:w-[350px] h-[290px] md:h-[350px] hover:scale-105 duration-300 object-cover rounded-lg transform translate-x-[265px] md:translate-x-[680px] -translate-y-[300px] md:-translate-y-[348px]"
             />
           </div>
         </Card>
@@ -108,7 +108,7 @@ export default function Hero() {
             darkMode ? "bg-customDarkGreen" : "bg-customLightGreen"
           }   `}
         >
-          <div className="-translate-x-[79rem] md:-translate-x-[47rem] mt-3">
+          <div className="-translate-x-[1175px] absolute md:-translate-x-[47rem] mt-3">
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
         </Card>
