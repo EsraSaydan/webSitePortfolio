@@ -108,7 +108,7 @@ export default function Hero() {
             darkMode ? "bg-customDarkGreen" : "bg-customLightGreen"
           }   `}
         >
-          <div className="-translate-x-[82rem] md:-translate-x-[47rem] mt-3">
+          <div className="-translate-x-[80rem] md:-translate-x-[47rem] mt-3">
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
         </Card>
