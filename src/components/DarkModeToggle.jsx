@@ -9,7 +9,7 @@ export default function DarkModeToggle() {
   };
 
   return (
-    <label className="relative inline-flex items-center cursor-pointer mt-1 left-[140vh]">
+    <label className="relative inline-flex items-center cursor-pointer mt-1">
       <input
         type="checkbox"
         value=""

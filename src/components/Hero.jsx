@@ -27,8 +27,8 @@ export default function Hero() {
           }`}
         >
           <button
-            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[12rem] md:ml-[120vh] mt-[25px] md:mt-[19px] ${
-              darkMode ? "text-[#8F88FF]" : "text-customLightGreen"
+            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[160px] md:ml-[120vh] mt-[25px] md:mt-[19px]  text-nowrap ${
+              darkMode ? "text-[#8F88FF] " : "text-customLightGreen "
             }`}
             onClick={clickHandle}
           >
@@ -103,11 +103,11 @@ export default function Hero() {
       </div>
       <div>
         <div
-          className={` h-[500px] md:h-[671px] w-1/3 fixed text-[9px] md:text-[14px]  rounded-0 ${
+          className={` h-[500px] md:h-[671px] w-1/3 flex absolute text-nowrap   text-[9px] md:text-[14px]  rounded-0 ${
             darkMode ? "bg-customDarkGreen" : "bg-customLightGreen"
           }   `}
         >
-          <div className="-translate-x-[81rem]  md:-translate-x-[47rem] mt-3">
+          <div className="ml-3 mt-3">
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
         </div>
