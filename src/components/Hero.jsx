@@ -22,12 +22,12 @@ export default function Hero() {
       <div className="w-2/3 ">
         {" "}
         <div
-          className={`h-[500px] md:h-[671px]  rounded-0 ${
+          className={`h-[500px] md:h-[671px] flex  rounded-0 ${
             darkMode ? "bg-customDarkBlue" : "bg-customBlue"
           }`}
         >
           <button
-            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[160px] md:ml-[120vh] mt-[25px] md:mt-[19px]  text-nowrap ${
+            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[160px] md:ml-[120vh] mt-[25px] md:mt-[19px]   text-nowrap ${
               darkMode ? "text-[#8F88FF] " : "text-customLightGreen "
             }`}
             onClick={clickHandle}
