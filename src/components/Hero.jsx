@@ -103,7 +103,7 @@ export default function Hero() {
       </div>
       <div>
         <div
-          className={` h-[500px] md:h-[671px] w-1/3 absolute fixed text-[9px] md:text-[14px]  rounded-0 ${
+          className={` h-[500px] md:h-[671px] w-1/3 fixed text-[9px] md:text-[14px]  rounded-0 ${
             darkMode ? "bg-customDarkGreen" : "bg-customLightGreen"
           }   `}
         >
