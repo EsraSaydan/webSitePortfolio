@@ -27,7 +27,7 @@ export default function Hero() {
           }`}
         >
           <button
-            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[12rem] md:ml-[120vh] mt-[25px] md:mt-[19px] ${
+            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[12rem] md:ml-[120vh] mt-[25px] md:mt-[19px]  ${
               darkMode ? "text-[#8F88FF]" : "text-customLightGreen"
             }`}
             onClick={clickHandle}
