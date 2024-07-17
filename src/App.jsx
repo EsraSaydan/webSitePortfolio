@@ -40,7 +40,6 @@ function App() {
     fetchData();
   }, []);
 
-  // Loading göstergesi oluşturma
   const Loading = () => (
     <div className="loading">
       <p>Loading...</p>
@@ -51,7 +50,7 @@ function App() {
     <ThemeContextProvider>
       <LanguageContextProvider>
         <div className="App">
-          <ToastContainer /> {/* Toastify konteyneri ekleyin */}
+          <ToastContainer />
           {loading ? (
             <Loading />
           ) : (
