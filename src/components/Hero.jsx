@@ -2,7 +2,6 @@ import DarkModeToggle from "./DarkModeToggle";
 import { useContext } from "react";
 import { ThemeContext } from "../contexts/ThemeContext";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { Card } from "reactstrap";
 import m from "../assets/m.jpeg";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -18,17 +17,17 @@ export default function Hero() {
   };
 
   return (
-    <div className="flex ">
+    <div className="flex">
       {" "}
-      <div className="w-2/3">
+      <div className="w-2/3 ">
         {" "}
-        <Card
-          className={`h-[500px] md:h-[671px] rounded-0 ${
+        <div
+          className={`h-[500px] md:h-[671px]  rounded-0 ${
             darkMode ? "bg-customDarkBlue" : "bg-customBlue"
           }`}
         >
           <button
-            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[10rem] md:ml-[120vh] mt-[19px] ${
+            className={`font-bold hover:scale-105 duration-300 text-[9px] md:text-[14px] ml-[12rem] md:ml-[120vh] mt-[25px] md:mt-[19px] ${
               darkMode ? "text-[#8F88FF]" : "text-customLightGreen"
             }`}
             onClick={clickHandle}
@@ -100,18 +99,18 @@ export default function Hero() {
               className="relative z-10 w-[120px] md:w-[350px] h-[290px] md:h-[350px] hover:scale-105 duration-300 object-cover rounded-lg transform translate-x-[265px] md:translate-x-[680px] -translate-y-[300px] md:-translate-y-[348px]"
             />
           </div>
-        </Card>
+        </div>
       </div>
       <div>
-        <Card
-          className={` h-[500px] md:h-[671px]  w-1/3 absolute text-[9px] md:text-[14px]  rounded-0 ${
+        <div
+          className={` h-[500px] md:h-[671px] w-1/3 absolute fixed text-[9px] md:text-[14px]  rounded-0 ${
             darkMode ? "bg-customDarkGreen" : "bg-customLightGreen"
           }   `}
         >
-          <div className="-translate-x-[1175px] absolute md:-translate-x-[47rem] mt-3">
+          <div className="-translate-x-[81rem]  md:-translate-x-[47rem] mt-3">
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </div>
-        </Card>
+        </div>
       </div>
     </div>
   );
