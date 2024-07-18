@@ -29,7 +29,7 @@ function Skills() {
       }`}
     >
       <h2
-        className={`border-none font-bold text-4xl md:text-4xl translate-y-[50px] md:translate-y-[70px] ml-[6rem] md:ml-[239px] ${
+        className={`border-none font-bold text-4xl md:text-4xl translate-y-[50px] md:translate-y-[70px] ml-[1rem] md:ml-[239px] ${
           darkMode ? "text-customLightGreen" : "text-customSkills"
         }`}
       >

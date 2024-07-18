@@ -22,7 +22,7 @@ function Profile() {
       } flex justify-center py-10`}
     >
       <div className="w-full max-w-screen-lg">
-        <h2 className=" border-none font-bold text-4xl md:text-4xl  ml-[6rem] md:ml-[7rem] mb-5 text-customLightGreen">
+        <h2 className=" border-none font-bold text-4xl md:text-4xl  ml-[1rem] md:ml-[7rem] mb-5 text-customLightGreen">
           {t(`profile`)}
         </h2>
         <CardGroup className="h-auto mb-12 flex flex-col lg:flex-row">
